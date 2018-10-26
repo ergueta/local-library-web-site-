@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY','f-cm+53!67cr)g$+^v-z**kyp-vwn2x
 #DEBUG = False
 DEBUG = bool(os.environ.get('DJANGO_DEBUG',True))
 
-ALLOWED_HOSTS = ['cryptic-escarpment-28318.herokuapp.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
