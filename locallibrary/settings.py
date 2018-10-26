@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY','f-cm+53!67cr)g$+^v-z**kyp-vwn2x
 #DEBUG = False
 DEBUG = bool(os.environ.get('DJANGO_DEBUG',True))
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['desolate-bastion-57023.herokuapp.com']
 
 
 # Application definition
